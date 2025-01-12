@@ -15,8 +15,6 @@ func main() {
 	for i := 0; i < drops; i++ {
 		x := rand.Float64()
 		y := rand.Float64()
-
-		// Tentukan di region mana tetesan jatuh
 		if x < 0.5 {
 			if y < 0.5 {
 				countA++
